@@ -26,4 +26,7 @@ private:
     int numRows;
     int numCols;
 
+
+    friend int getNumRows(MatrixType& matrix);
+    friend int getNumCols(MatrixType& matrix);
 };
